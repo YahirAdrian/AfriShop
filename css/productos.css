@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color:  #EEECEC;
+    font-family: 'Nerko One', cursive;
+}
+/*GENERAL*/
+
+/*ESTILOS DE LA CABECERA PRINCIPAL*/
+header{
+    width: 100%;
+    height: auto;
+    background-color: #85CDE8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    border-bottom: 4px solid #000;
+}
+
+#logotipo{
+    font-size: 34px;
+    color: #000;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    font-weight: 350;
+}
+
+.input_search{
+    border: none;
+    border-radius: 6px;
+    width: 40vw;
+    height: 1.2rem;
+}
+
+.imagen_cabecera{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.icono_buscar{
+    width: 27px;
+    height: 27px;
+}
+
+.opciones{
+    padding-top: 15px;
+}
+
+.opciones img{
+    margin-left: 30px;
+}
+
+/*SECCION DE PRODUCTOS*/
+section{
+    border-radius: 1.3rem;
+    border: 3px solid #000;
+    background-color: #fff;
+    width: 85%;
+    height: auto;
+    margin: auto;
+    margin-top: 35px;
+    box-shadow: 8px 5px 5px black;
+}
+
+.display_productos{
+    width: 92%;
+    height: auto;
+    display: inline-block;
+    margin: 20px 4%;
+}
+
+.producto{
+    width: 150px;
+    height: 190px;
+    margin: 10px 20px;
+    border: 3px solid #000;
+    box-shadow: 5px 5px 5px #868686;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.categoria_productos{
+    font-size: 22px;
+}
+
+.imagen_producto{
+    width: 100%;
+    height: 60%;
+    margin: auto;
+}
+
+.nombre_producto{
+    font-size: 24px;
+    font-weight: 700;
+    margin:0;
+}
+
+.precio_producto{
+    font-size: 22px;
+    font-weight: 300;
+    color: #4bff4b;
+    margin:0;
+    margin-left: 8px;
+}
+
+/*animaciones*/
+.producto:hover{
+    transform: scale(1.15);
+}
