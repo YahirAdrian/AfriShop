@@ -21,7 +21,7 @@ header{
 }
 
 #logotipo{
-    font-size: 34px;
+    font-size: 24px;
     color: #000;
     letter-spacing: 2px;
     text-decoration: underline;
@@ -57,57 +57,56 @@ header{
     margin-left: 30px;
 }
 
-/*SECCION DE PRODUCTOS*/
+/*Seccion para visualizar el producto*/
+
 section{
-    border-radius: 1.3rem;
+    width: 75%;
+    height: 70vh;
+    margin: 20px 8%;
     background-color: #fff;
-    width: 85%;
-    height: auto;
-    margin: auto;
-    margin-top: 35px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.display_productos{
-    width: 92%;
-    height: auto;
-    display: inline-block;
-    margin: 20px 4%;
+.imagen{
+    width: 65%;
+    height: 100%;
 }
 
-.producto{
-    width: 150px;
-    height: 270px;
-    margin: 10px 20px;
-    box-shadow: 5px 5px 5px #868686;
-    display: inline-block;
-    cursor: pointer;
+.descripcion{
+    width: 35%;
+    height: 100%;
+    padding: 15px;
 }
 
-.categoria_productos{
-    font-size: 22px;
+section img{
+    width: 90%;
+    height: 90%
 }
 
-.imagen_producto{
-    width: 100%;
-    height: 60%;
-    margin: auto;
+/*Descripcion*/
+#precio_producto{
+    color: #24a30a;
 }
 
-.nombre_producto{
-    font-size: 24px;
-    font-weight: 700;
-    margin:0;
+.descripcion button{
+    width: 80%;
+    height: 35px;
+    margin-top: 40px;
+    margin-left: 15%;
+    border: 0.5px solid #000;
+    border-radius: 4px;
+    background-color: #85CDE8;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 
-.precio_producto{
-    font-size: 22px;
-    font-weight: 300;
-    color: #24a524;
-    margin:0;
-    margin-left: 8px;
-}
-
-/*animaciones*/
-.producto:hover{
-    transform: scale(1.15);
+.descripcion button:hover{
+    background-color: #fff;
+    color: #000;
+    border: 3px solid #85CDE8;
 }

@@ -1,29 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Afrishop</title>
-        <link rel="stylesheet" href="css/productos.css"/>
-    </head>
-    <body>
-        <header>
-            <p id="logotipo">Afrishop</p>
-            
-            <div class="buscar">
-                <input type="text" class="input_search" placeholder="Buscar"/>
-                <img src="src/lupa.png" class="imagen_cabecera icono_buscar"/>
-            </div>
-
-            <div class="opciones">
-                <a href="carrito.html"><img src="src/carrito.png" class="imagen_cabecera" /></a>
-                <a href="perfil.html"><img src="src/usuario.png" class="imagen_cabecera"/></a>
-            </div>
-        </header>
-
-        <section>
-            <div class="display_productos">
-                <h2 class="categoria_producto">Categoría a</h2>
+ <!--<h2 class="categoria_producto">Categoría a</h2>
                 <div class="producto">
                     <img src="src/producto.png" class="imagen_producto"/>
                     <p class="nombre_producto">Producto 1</p>
@@ -88,7 +63,4 @@
                     <p class="nombre_producto">Producto 2</p>
                     <p class="precio_producto">$65</p>
                 </div>
-            </div>
-        </section>
-    </body>
-</html>
+            </div>-->
